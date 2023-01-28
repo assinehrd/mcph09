@@ -1,0 +1,701 @@
+/* line 2, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand > div:not(.section_4),
+.rebrand .section_4 .content {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 500px) {
+  /* line 2, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand > div:not(.section_4),
+  .rebrand .section_4 .content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+/* line 19, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .trading-campaign-banner {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* line 25, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .trading-campaign-banner .desktop_banner {
+  border-radius: 8px;
+  display: none;
+}
+@media (min-width: 1024px) {
+  /* line 25, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .trading-campaign-banner .desktop_banner {
+    display: block;
+    max-width: 1440px;
+  }
+}
+/* line 33, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .trading-campaign-banner .tablet_banner {
+  border-radius: 8px;
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 33, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .trading-campaign-banner .tablet_banner {
+    display: block;
+  }
+}
+/* line 40, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .trading-campaign-banner .mobile_banner {
+  border-radius: 8px;
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 40, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .trading-campaign-banner .mobile_banner {
+    display: block;
+  }
+}
+/* line 48, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 {
+  text-align: center;
+  background-image: url(../../app/images/rebrand/landing_1.html);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* line 58, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(1) {
+  font-size: 48px;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+/* line 62, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(1) .highlight {
+  color: #31cb9e;
+  font-weight: 600;
+}
+/* line 67, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(2) {
+  font-size: 16px;
+  font-weight: normal;
+  color: #3a3a3a;
+  max-width: 869px;
+  margin: 24px auto;
+}
+/* line 74, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(3) {
+  margin-bottom: 30px;
+}
+/* line 76, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(3) img {
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+@media (max-width: 425px) {
+  /* line 76, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_1 div:nth-child(3) img {
+    margin-right: 10px;
+  }
+}
+/* line 84, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+/* line 88, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(4) a {
+  font-size: 16px;
+  border-radius: 8px;
+}
+/* line 91, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_1 div:nth-child(4) a img {
+  margin-right: 8px;
+}
+@media (max-width: 425px) {
+  /* line 88, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_1 div:nth-child(4) a {
+    flex: 1;
+    min-width: 0;
+  }
+}
+/* line 103, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 {
+  position: relative;
+}
+/* line 105, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 > div:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 8px;
+  border: 1px solid #31cb9e;
+  border-bottom: 10px solid #31cb9e;
+  background-color: #f5f5f5;
+}
+@media screen and (max-width: 500px) {
+  /* line 105, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_2 > div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* line 118, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 > div:nth-child(1) div {
+  flex: 1;
+  text-align: center;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: -1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 425px) {
+  /* line 122, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_2 > div:nth-child(1) div:not(:last-child) {
+    border: none !important;
+  }
+}
+/* line 126, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 > div:nth-child(1) div:not(:last-child) {
+  border-right: 1px solid #868787;
+}
+@media screen and (max-width: 500px) {
+  /* line 118, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_2 > div:nth-child(1) div {
+    font-size: 14px;
+    min-width: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* line 142, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 > div:nth-child(1) div p:nth-child(1) {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin: 0px;
+}
+/* line 149, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 > div:nth-child(1) div p:nth-child(2) {
+  color: #868787;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 500px) {
+  /* line 149, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_2 > div:nth-child(1) div p:nth-child(2) {
+    font-size: 14px;
+  }
+}
+/* line 164, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_2 > div:not(:first-child) {
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+  color: #868787;
+}
+/* line 171, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 {
+  text-align: center;
+}
+/* line 174, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > p:nth-child(1) {
+  margin-top: 120px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #31cb9e;
+  text-transform: uppercase;
+}
+/* line 181, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > p:nth-child(2) {
+  font-size: 36px;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin-top: 12px;
+}
+/* line 188, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 36px;
+  margin-top: 48px;
+}
+/* line 194, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding-top: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+/* line 205, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature {
+  min-width: 276px;
+}
+/* line 207, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature > img {
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 211, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature a {
+  margin-top: auto;
+  font-size: 16px;
+  border-radius: 8px;
+}
+/* line 215, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature a img {
+  margin-right: 7px;
+}
+/* line 220, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  color: #31cb9e;
+  margin-top: 23px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+/* line 228, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+/* line 235, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_3 > div .feature p:nth-child(4) {
+  font-size: 16px;
+  font-weight: normal;
+  color: #3a3a3a;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+/* line 247, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 {
+  margin-top: 80px;
+  background-color: #243036;
+  color: white;
+}
+/* line 251, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+/* line 257, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1;
+  min-width: 320px;
+}
+/* line 262, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div:nth-child(1) {
+  text-align: center;
+}
+/* line 266, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div p:nth-child(1) {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  color: #31cb9e;
+  text-transform: uppercase;
+}
+/* line 273, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div p:nth-child(2) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 12px;
+  color: #ffffff;
+}
+/* line 280, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div p:nth-child(3) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+  color: #ffffff;
+}
+/* line 288, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  text-align: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  /* line 288, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_4 .content > div > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 298, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_4 .content > div > div .separator {
+    display: none;
+  }
+}
+/* line 302, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div > div .separator {
+  background-color: #40505a;
+  width: 1px;
+}
+/* line 312, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div > div > div p:nth-child(1) {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: white;
+}
+/* line 318, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_4 .content > div > div > div p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a7b6bd;
+}
+/* line 332, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 {
+  padding-top: 80px;
+}
+/* line 334, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 > p {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #3a3a3a;
+  text-align: center;
+}
+/* line 341, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-top: 48px;
+}
+@media (max-width: 768px) {
+  /* line 341, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_5 > div {
+    flex-direction: column;
+  }
+}
+/* line 349, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 > div > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  padding: 48px;
+  color: #3a3a3a;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 349, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_5 > div > div {
+    padding: 16px;
+  }
+}
+/* line 360, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 > div > div p:nth-child(1) {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 28px;
+  height: 48px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 360, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_5 > div > div p:nth-child(1) {
+    font-size: 16px;
+  }
+}
+/* line 370, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 > div > div p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+/* line 377, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_5 > div > div img {
+  margin-top: auto;
+}
+/* line 383, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 {
+  padding-top: 160px;
+  text-align: center;
+}
+/* line 386, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > p {
+  color: #3a3a3a;
+}
+/* line 388, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+/* line 393, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 48px auto;
+}
+/* line 401, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > div:nth-child(4) {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 404, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > div:nth-child(4) div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+/* line 409, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > div:nth-child(4) div p:nth-child(1) {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 84px;
+  color: #3a3a3a;
+}
+/* line 415, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > div:nth-child(4) div p:nth-child(2) {
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #868787;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+/* line 427, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > div:nth-child(5) {
+  margin-top: 60px;
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* line 433, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_6 > div:nth-child(5) a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+}
+/* line 442, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 {
+  padding-top: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  /* line 442, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_7 {
+    flex-direction: column;
+    padding-top: 120px;
+  }
+}
+/* line 450, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div {
+  flex: 1;
+  padding: 48px 56px;
+}
+@media (max-width: 425px) {
+  /* line 454, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_7 > div:nth-child(1) {
+    padding: 0 0 48px 0;
+  }
+  /* line 457, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_7 > div:nth-child(2) {
+    padding: 48px 16px;
+  }
+}
+/* line 461, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div:nth-child(2) {
+  background: #f5f5f5;
+}
+/* line 464, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div > p {
+  color: #3a3a3a;
+}
+/* line 466, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div > p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+/* line 471, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div > p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 48px 0 38px 0;
+}
+/* line 478, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+/* line 482, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt > div {
+  padding: 0 5px;
+  margin-top: 10px;
+  min-width: 150px;
+  text-align: center;
+  flex: 1;
+}
+/* line 488, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt > div:not(:last-child) {
+  border-right: 1px solid #e9e9e9;
+}
+/* line 491, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt > div > img {
+  max-height: 40px;
+}
+@media screen and (max-width: 425px) {
+  /* line 494, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_7 > div .vt > div .bugbounty {
+    margin-top: 18px;
+  }
+}
+/* line 500, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt > div > a > img {
+  max-height: 40px;
+}
+/* line 504, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt > div > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #868787;
+}
+/* line 509, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_7 > div .vt > div > p:nth-child(3) {
+  margin-top: 64px !important;
+}
+/* line 517, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_8 {
+  padding-bottom: 50px;
+}
+/* line 519, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_8 img {
+  height: 30px !important;
+  margin-top: 10px;
+}
+/* line 524, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #f5f5f5;
+  margin-bottom: 160px !important;
+}
+@media (max-width: 768px) {
+  /* line 524, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_9 {
+    flex-direction: column-reverse;
+  }
+  /* line 533, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_9 > div {
+    text-align: center;
+  }
+  /* line 535, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_9 > div:nth-child(1), .rebrand .section_9 > div:nth-child(2) {
+    padding: 0 !important;
+  }
+  /* line 540, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_9 > div:nth-child(1) {
+    padding-bottom: 60px !important;
+  }
+}
+/* line 545, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div {
+  flex: 1;
+}
+/* line 547, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div:nth-child(1) {
+  padding: 120px 0 120px 74px;
+}
+/* line 553, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div:nth-child(1) p {
+  margin: 0;
+}
+/* line 555, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div:nth-child(1) p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #3a3a3a;
+}
+/* line 561, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div:nth-child(1) p:nth-child(2) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #31cb9e;
+}
+/* line 567, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div:nth-child(1) p:nth-child(3) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+  margin-top: 48px;
+}
+/* line 576, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div:nth-child(2) {
+  min-width: 200px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* line 582, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+.rebrand .section_9 > div a {
+  width: 276px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+  /* line 601, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_6 > div:nth-child(4) div p:nth-child(1) {
+    font-size: 36px;
+  }
+  /* line 604, /protocol-website/app/assets/stylesheets/pages/rebrand-landing-page.scss */
+  .rebrand .section_6 > div:nth-child(4) div p:nth-child(2) {
+    font-size: 16px;
+    margin-top: 13px;
+  }
+}

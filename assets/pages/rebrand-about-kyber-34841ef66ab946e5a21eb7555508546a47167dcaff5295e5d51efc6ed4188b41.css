@@ -1,0 +1,597 @@
+/* line 5, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand > div:not(.section_4):not(.section_8),
+.rebrand .section_4 .content,
+.rebrand .section_8 .content {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Work Sans";
+}
+/* line 15, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_1 {
+  text-align: center;
+  background-image: url(../../app/images/rebrand/about_kyber_1.html);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* line 25, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_1 div:nth-child(1) {
+  font-size: 48px;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+/* line 30, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_1 div:nth-child(2), .rebrand .section_1 div:nth-child(3) {
+  font-size: 20px;
+  font-weight: normal;
+  color: #3a3a3a;
+  max-width: 869px;
+  margin: 24px auto;
+}
+/* line 38, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_1 div:nth-child(3) {
+  margin-top: 40px;
+}
+/* line 41, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_1 div:nth-child(4) {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+/* line 44, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_1 div:nth-child(4) img {
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+@media (max-width: 425px) {
+  /* line 44, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_1 div:nth-child(4) img {
+    margin-right: 10px;
+  }
+}
+/* line 54, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #f5f5f5;
+  margin-bottom: 160px !important;
+}
+@media (max-width: 768px) {
+  /* line 54, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_2 {
+    flex-direction: column;
+  }
+}
+/* line 64, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div {
+  flex: 1;
+}
+/* line 66, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div:nth-child(1) {
+  min-width: 200px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* line 72, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div:nth-child(2) {
+  padding: 120px 0 120px 0;
+}
+@media (max-width: 768px) {
+  /* line 72, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_2 > div:nth-child(2) {
+    padding: 0 0 120px 0;
+    text-align: center;
+  }
+}
+/* line 79, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div:nth-child(2) p {
+  margin: 0;
+  color: #3a3a3a;
+}
+/* line 82, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div:nth-child(2) p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 45px;
+}
+/* line 88, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div:nth-child(2) p:nth-child(2), .rebrand .section_2 > div:nth-child(2) p:nth-child(3) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* line 94, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_2 > div:nth-child(2) p:nth-child(3) {
+  margin-top: 30px;
+}
+/* line 101, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 {
+  text-align: center;
+}
+/* line 103, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > p {
+  color: #3a3a3a;
+}
+/* line 105, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+/* line 110, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 869px;
+  margin: 48px auto;
+}
+/* line 118, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 36px;
+  margin-top: 48px;
+}
+/* line 124, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div > a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding-top: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+/* line 135, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div .feature {
+  min-width: 276px;
+}
+/* line 137, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div .feature > img {
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 141, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div .feature a {
+  margin-top: auto;
+  font-size: 16px;
+  border-radius: 8px;
+}
+/* line 145, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div .feature a img {
+  margin-right: 7px;
+}
+/* line 150, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div .feature p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin-top: 32px;
+  height: 48px;
+  text-transform: capitalize;
+}
+/* line 158, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_3 > div .feature p:nth-child(3) {
+  font-size: 16px;
+  font-weight: normal;
+  color: #3a3a3a;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+/* line 170, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 {
+  margin-top: 80px;
+  background-color: #243036;
+  color: white;
+}
+/* line 174, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+@media (max-width: 425px) {
+  /* line 174, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_4 .content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+/* line 185, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1;
+  min-width: 320px;
+}
+/* line 190, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div:nth-child(1) {
+  text-align: center;
+}
+/* line 194, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 12px;
+  color: #ffffff;
+}
+/* line 201, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 48px;
+  color: #ffffff;
+}
+/* line 209, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  text-align: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+@media (max-width: 425px) {
+  /* line 209, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_4 .content > div > div {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+/* line 220, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div > div .separator {
+  background-color: #40505a;
+  width: 1px;
+}
+@media (max-width: 425px) {
+  /* line 226, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_4 .content > div > div .hideOnMobile {
+    display: none;
+  }
+}
+/* line 237, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div > div > div p:nth-child(1) {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: white;
+  margin-top: 0px;
+}
+/* line 244, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_4 .content > div > div > div p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a7b6bd;
+}
+/* line 258, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 {
+  padding-top: 160px;
+  text-align: center;
+}
+/* line 261, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > p {
+  color: #3a3a3a;
+}
+/* line 263, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+/* line 268, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 869px;
+  margin: 48px auto;
+}
+/* line 276, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+@media (max-width: 1024px) {
+  /* line 276, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_5 > div {
+    flex-direction: column;
+  }
+}
+/* line 287, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+/* line 294, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div div {
+  background: #f9f9f9;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* line 300, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(1), .rebrand .section_5 > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+}
+/* line 305, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(1) p, .rebrand .section_5 > div > div:nth-child(2) p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  background: white;
+}
+/* line 310, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(1) img, .rebrand .section_5 > div > div:nth-child(2) img {
+  padding: 40px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+/* line 318, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(3) p {
+  margin-bottom: 20px;
+}
+/* line 319, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(3) p:not(:nth-child(1)) {
+  margin-top: 32px;
+}
+/* line 324, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(3) div {
+  padding: 16px 0;
+}
+@media (max-width: 425px) {
+  /* line 324, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_5 > div > div:nth-child(3) div {
+    padding: 16px;
+  }
+}
+/* line 332, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(1) {
+  flex: 434;
+}
+/* line 335, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(2) {
+  flex: 332;
+}
+/* line 338, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_5 > div > div:nth-child(3) {
+  flex: 376;
+}
+/* line 344, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 {
+  padding-top: 160px;
+  text-align: center;
+}
+/* line 348, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #3a3a3a;
+}
+/* line 354, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > p:nth-child(2), .rebrand .section_6 > p:nth-child(3) {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #3a3a3a;
+  max-width: 869px;
+  margin: 24px auto;
+}
+/* line 363, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > p:nth-child(3) {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+/* line 369, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(4) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+/* line 373, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(4) a img {
+  margin-right: 8px;
+}
+/* line 377, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(5), .rebrand .section_6 > div:nth-child(7) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+  max-width: 650px;
+  margin: 48px auto 0 auto;
+}
+@media screen and (max-width: 425px) {
+  /* line 377, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_6 > div:nth-child(5), .rebrand .section_6 > div:nth-child(7) {
+    gap: 16px;
+  }
+}
+/* line 390, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(5) > a, .rebrand .section_6 > div:nth-child(7) > a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #31cb9e;
+  white-space: nowrap;
+}
+/* line 397, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(5) > a img, .rebrand .section_6 > div:nth-child(7) > a img {
+  width: 24px;
+  margin-right: 4px;
+}
+/* line 403, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(7) {
+  max-width: 920px;
+}
+/* line 406, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_6 > div:nth-child(6) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 80px 0 48px 0;
+}
+/* line 423, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 {
+  padding-top: 160px;
+}
+/* line 426, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 p:nth-child(1) {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 48px;
+  color: #3a3a3a;
+}
+/* line 434, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 p:nth-child(2), .rebrand .section_7 p:nth-child(3), .rebrand .section_7 p:nth-child(4) {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+/* line 441, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 p:nth-child(2) {
+  font-weight: 500;
+  color: #31cb9e;
+}
+/* line 446, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* line 451, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(5) > a {
+  background: #f9f9f9;
+  padding: 40px 10px;
+  width: 312px;
+  margin-top: 36px;
+}
+/* line 457, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(5) > a:nth-child(1) p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* line 463, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(5) > a:nth-child(5) p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 468, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(5) > a img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 472, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(5) > a > p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #3a3a3a;
+  margin-top: 30px;
+}
+@media (max-width: 1200px) {
+  /* line 483, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_7 > div:nth-child(5) > img {
+    display: none;
+  }
+}
+/* line 488, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(6) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 48px;
+}
+/* line 494, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(6) a {
+  font-size: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+/* line 498, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_7 > div:nth-child(6) a img {
+  margin-right: 8px;
+}
+/* line 505, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 {
+  margin-top: 160px;
+  padding: 80px 30px;
+  background: #243036;
+}
+/* line 509, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 512, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+/* line 518, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content p:nth-child(1) {
+  margin-bottom: 48px;
+}
+/* line 521, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content p:nth-child(3) {
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+/* line 526, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/* line 531, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content div:nth-child(2) {
+  gap: 80px;
+}
+@media screen and (max-width: 768px) {
+  /* line 531, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+  .rebrand .section_8 .content div:nth-child(2) {
+    gap: 28px;
+  }
+}
+/* line 537, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content div:nth-child(2) img:nth-child(4) {
+  height: 100%;
+}
+/* line 541, /protocol-website/app/assets/stylesheets/pages/rebrand-about-kyber.scss */
+.rebrand .section_8 .content div:nth-child(4) {
+  gap: 30px;
+}
